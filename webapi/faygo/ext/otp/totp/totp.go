@@ -18,8 +18,8 @@
 package totp
 
 import (
-	"github.com/equnasp/CDS/webapi/faygo/ext/otp"
-	"github.com/equnasp/CDS/webapi/faygo/ext/otp/hotp"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/otp"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/otp/hotp"
 
 	"crypto/rand"
 	"encoding/base32"

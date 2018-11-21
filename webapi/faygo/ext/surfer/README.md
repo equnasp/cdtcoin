@@ -1,9 +1,9 @@
-# Surfer    [![GoDoc](https://godoc.org/github.com/tsuna/gohbase?status.png)](https://godoc.org/github.com/equnasp/CDS/webapi/surfer) [![GitHub release](https://img.shields.io/github/release/henrylee2cn/surfer.svg)](https://github.com/equnasp/CDS/webapi/surfer/releases)
+# Surfer    [![GoDoc](https://godoc.org/github.com/tsuna/gohbase?status.png)](https://godoc.org/github.com/equnasp/cdtcoin/webapi/surfer) [![GitHub release](https://img.shields.io/github/release/henrylee2cn/surfer.svg)](https://github.com/equnasp/cdtcoin/webapi/surfer/releases)
 
 Package surfer is a high level concurrency http client.
 It has `surf` and` phantom` download engines, highly simulated browser behavior, the function of analog login and so on.
 
-[简体中文](https://github.com/equnasp/CDS/webapi/surfer/blob/master/README_ZH.md)
+[简体中文](https://github.com/equnasp/cdtcoin/webapi/surfer/blob/master/README_ZH.md)
 
 ## Features
 - Both `surf` and `phantomjs` engines are supported
@@ -16,7 +16,7 @@ It has `surf` and` phantom` download engines, highly simulated browser behavior,
 package main
 
 import (
-    "github.com/equnasp/CDS/webapi/surfer"
+    "github.com/equnasp/cdtcoin/webapi/surfer"
     "io/ioutil"
     "log"
 )
@@ -24,7 +24,7 @@ import (
 func main() {
     // Use surf engine
     resp, err := surfer.Download(&surfer.Request{
-        Url: "http://github.com/equnasp/CDS/webapi/surfer",
+        Url: "http://github.com/equnasp/cdtcoin/webapi/surfer",
     })
     if err != nil {
         log.Fatal(err)
@@ -47,8 +47,8 @@ func main() {
     surfer.DestroyJsFiles()
 }
 ```
-[Full example](https://github.com/equnasp/CDS/webapi/faygo/raw/master/samples)
+[Full example](https://github.com/equnasp/cdtcoin/webapi/faygo/raw/master/samples)
 
 ## License
 
-Surfer is under Apache v2 License. See the [LICENSE](https://github.com/equnasp/CDS/webapi/faygo/raw/master/LICENSE) file for the full license text
+Surfer is under Apache v2 License. See the [LICENSE](https://github.com/equnasp/cdtcoin/webapi/faygo/raw/master/LICENSE) file for the full license text

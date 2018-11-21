@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/equnasp/CDS/goutil"
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/goutil/teleport/socket"
+	"github.com/equnasp/cdtcoin/goutil"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/teleport/socket"
 )
 
 //go:generate go build $GOFILE

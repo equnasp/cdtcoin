@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/equnasp/CDS/webapi/faygo/session"
+	"github.com/equnasp/cdtcoin/webapi/faygo/session"
 	"github.com/ssdb/gossdb/ssdb"
 )
 

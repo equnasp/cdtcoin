@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/equnasp/CDS/webapi/faygo/ext/otp"
-	"github.com/equnasp/CDS/webapi/faygo/ext/otp/totp"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/otp"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/otp/totp"
 
 	"bufio"
 	"bytes"

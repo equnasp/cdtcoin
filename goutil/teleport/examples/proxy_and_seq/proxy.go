@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/goutil/teleport/plugin/proxy"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/teleport/plugin/proxy"
 )
 
 //go:generate go build $GOFILE

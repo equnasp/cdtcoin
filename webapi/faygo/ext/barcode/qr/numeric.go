@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/equnasp/CDS/webapi/faygo/ext/barcode/utils"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/barcode/utils"
 )
 
 func encodeNumeric(content string, ecl ErrorCorrectionLevel) (*utils.BitList, *versionInfo, error) {

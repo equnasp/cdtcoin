@@ -3,7 +3,7 @@ package cron
 import (
 	"time"
 
-	"github.com/equnasp/CDS/goutil/calendar"
+	"github.com/equnasp/cdtcoin/goutil/calendar"
 )
 
 // ConstantDelaySchedule represents a simple recurring duty cycle, e.g. "Every 5 minutes".

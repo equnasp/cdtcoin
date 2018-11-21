@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/equnasp/CDS/goutil"
+	"github.com/equnasp/cdtcoin/goutil"
 )
 
 // form(url encode) codec name and id

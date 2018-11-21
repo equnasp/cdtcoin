@@ -12,7 +12,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/postgres" //github.com/lib/pq
 	_ "github.com/jinzhu/gorm/dialects/sqlite"   //github.com/mattn/go-sqlite3
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 // DBService is a database engine object.

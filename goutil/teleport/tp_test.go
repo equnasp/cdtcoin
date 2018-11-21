@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
 )
 
 func panic_call(tp.CallCtx, *interface{}) (interface{}, *tp.Rerror) {

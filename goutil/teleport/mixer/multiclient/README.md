@@ -13,7 +13,7 @@ Higher throughput client connection pool when transferring large messages (such 
 
 ### Usage
 	
-`import "github.com/equnasp/CDS/webapi/teleport/mixer/multiclient"`
+`import "github.com/equnasp/cdtcoin/webapi/teleport/mixer/multiclient"`
 
 #### Test
 
@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/webapi/teleport"
-	"github.com/equnasp/CDS/webapi/teleport/mixer/multiclient"
+	tp "github.com/equnasp/cdtcoin/webapi/teleport"
+	"github.com/equnasp/cdtcoin/webapi/teleport/mixer/multiclient"
 )
 
 type Arg struct {

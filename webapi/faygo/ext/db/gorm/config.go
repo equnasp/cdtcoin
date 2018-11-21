@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/equnasp/CDS/goutil/ini"
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/goutil/ini"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 // DBConfig is database connection config

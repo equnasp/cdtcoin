@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/goutil/teleport/plugin/secure"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/teleport/plugin/secure"
 )
 
 type Arg struct {

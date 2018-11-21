@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/equnasp/CDS/webapi/faygo"
-	"github.com/equnasp/CDS/webapi/faygo/ext/middleware/jwt"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/middleware/jwt"
 )
 
 func helloHandler(c *faygo.Context) error {

@@ -18,8 +18,8 @@
 package otp
 
 import (
-	"github.com/equnasp/CDS/webapi/faygo/ext/barcode"
-	"github.com/equnasp/CDS/webapi/faygo/ext/barcode/qr"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/barcode"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/barcode/qr"
 
 	"crypto/md5"
 	"crypto/sha1"

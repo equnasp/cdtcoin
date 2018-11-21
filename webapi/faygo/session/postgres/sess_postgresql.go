@@ -56,7 +56,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/equnasp/CDS/webapi/faygo/session"
+	"github.com/equnasp/cdtcoin/webapi/faygo/session"
 	// import postgresql Driver
 	_ "github.com/lib/pq"
 )

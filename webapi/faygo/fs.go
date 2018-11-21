@@ -36,9 +36,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/equnasp/CDS/webapi/faygo/acceptencoder"
-	"github.com/equnasp/CDS/webapi/faygo/freecache"
-	"github.com/equnasp/CDS/webapi/faygo/markdown"
+	"github.com/equnasp/cdtcoin/webapi/faygo/acceptencoder"
+	"github.com/equnasp/cdtcoin/webapi/faygo/freecache"
+	"github.com/equnasp/cdtcoin/webapi/faygo/markdown"
 )
 
 const indexPage = "/index.html"

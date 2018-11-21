@@ -46,7 +46,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/equnasp/CDS/webapi/faygo/session"
+	"github.com/equnasp/cdtcoin/webapi/faygo/session"
 	// import mysql driver
 	_ "github.com/go-sql-driver/mysql"
 )

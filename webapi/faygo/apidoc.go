@@ -26,7 +26,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/equnasp/CDS/webapi/faygo/swagger"
+	"github.com/equnasp/cdtcoin/webapi/faygo/swagger"
 )
 
 type swaggerFS struct {

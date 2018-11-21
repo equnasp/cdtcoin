@@ -18,11 +18,11 @@ import (
 	"bytes"
 	"io"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/goutil/teleport/mixer/websocket/jsonSubProto"
-	ws "github.com/equnasp/CDS/goutil/teleport/mixer/websocket/websocket"
-	"github.com/equnasp/CDS/goutil/teleport/socket"
-	"github.com/equnasp/CDS/goutil/teleport/utils"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/teleport/mixer/websocket/jsonSubProto"
+	ws "github.com/equnasp/cdtcoin/goutil/teleport/mixer/websocket/websocket"
+	"github.com/equnasp/cdtcoin/goutil/teleport/socket"
+	"github.com/equnasp/cdtcoin/goutil/teleport/utils"
 )
 
 var defaultProto = jsonSubProto.NewJsonSubProtoFunc

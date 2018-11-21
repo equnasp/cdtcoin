@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/equnasp/CDS/goutil/calendar"
+	"github.com/equnasp/cdtcoin/goutil/calendar"
 )
 
 func TestActivation(t *testing.T) {

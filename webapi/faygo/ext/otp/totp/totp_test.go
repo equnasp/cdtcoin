@@ -18,7 +18,7 @@
 package totp
 
 import (
-	"github.com/equnasp/CDS/webapi/faygo/ext/otp"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/otp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

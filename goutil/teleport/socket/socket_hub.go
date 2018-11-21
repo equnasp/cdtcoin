@@ -15,7 +15,7 @@
 package socket
 
 import (
-	"github.com/equnasp/CDS/goutil"
+	"github.com/equnasp/cdtcoin/goutil"
 )
 
 // SocketHub sockets hub

@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
 )
 
 func NewTPS(intervalSecond uint32) *TPS {

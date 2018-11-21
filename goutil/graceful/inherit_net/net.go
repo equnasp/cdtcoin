@@ -16,7 +16,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/equnasp/CDS/goutil/graceful"
+	"github.com/equnasp/cdtcoin/goutil/graceful"
 )
 
 // Listen announces on the local network address laddr. The network net must be

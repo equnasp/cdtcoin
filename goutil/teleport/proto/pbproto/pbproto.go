@@ -21,10 +21,10 @@ import (
 	"io"
 	"sync"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/goutil/teleport/codec"
-	"github.com/equnasp/CDS/goutil/teleport/proto/pbproto/pb"
-	"github.com/equnasp/CDS/goutil/teleport/utils"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/teleport/codec"
+	"github.com/equnasp/cdtcoin/goutil/teleport/proto/pbproto/pb"
+	"github.com/equnasp/cdtcoin/goutil/teleport/utils"
 )
 
 // NewPbProtoFunc is creation function of PROTOBUF socket protocol.

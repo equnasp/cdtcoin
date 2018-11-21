@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/equnasp/CDS/webapi/faygo/ext/surfer"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/surfer"
 	"io/ioutil"
 	"log"
 	"net/url"

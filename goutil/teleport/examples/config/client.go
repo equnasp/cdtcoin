@@ -1,8 +1,8 @@
 package main
 
 import (
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/webapi/cfgo"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/webapi/cfgo"
 )
 
 //go:generate go build $GOFILE

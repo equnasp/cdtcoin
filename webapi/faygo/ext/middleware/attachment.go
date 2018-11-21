@@ -20,7 +20,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 // NewAttachment has the response content downloaded as an attachment file.

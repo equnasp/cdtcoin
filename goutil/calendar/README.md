@@ -61,7 +61,7 @@ This package's year range is `[1900,2050]` and month range is `[1,12]`.
 ```go
 package main
 
-import "github.com/equnasp/CDS/goutil/calendar"
+import "github.com/equnasp/cdtcoin/goutil/calendar"
 import "fmt"
 
 func main() {

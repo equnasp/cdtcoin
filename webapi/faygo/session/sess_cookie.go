@@ -22,7 +22,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/equnasp/CDS/goutil"
+	"github.com/equnasp/cdtcoin/goutil"
 )
 
 var cookiepder = &CookieProvider{}

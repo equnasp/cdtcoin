@@ -18,8 +18,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/equnasp/CDS/webapi/fay/generator"
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/fay/generator"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 // SimplePro output project files.
@@ -164,7 +164,7 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
             <h1>{{CONTENT}}</h1>
         </div>
         <div class="footer">
-            Github website: <a href="https://github.com/equnasp/CDS/webapi/faygo">Faygo {{VERSION}}</a> / Author: {{AUTHOR}} / Discuss: <a href="http://jq.qq.com/?_wv=1027&k=fzi4p1">Go-Web 编程</a> / Apache-2.0.
+            Github website: <a href="https://github.com/equnasp/cdtcoin/webapi/faygo">Faygo {{VERSION}}</a> / Author: {{AUTHOR}} / Discuss: <a href="http://jq.qq.com/?_wv=1027&k=fzi4p1">Go-Web 编程</a> / Apache-2.0.
         </div>
         <!-- github -->
         <div>

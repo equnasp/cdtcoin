@@ -24,7 +24,7 @@
 // package main
 
 // import (
-//     "github.com/equnasp/CDS/webapi/surfer"
+//     "github.com/equnasp/cdtcoin/webapi/surfer"
 //     "io/ioutil"
 //     "log"
 // )
@@ -32,7 +32,7 @@
 // func main() {
 //     // Use surf engine
 //     resp, err := surfer.Download(&surfer.Request{
-//         Url: "http://github.com/equnasp/CDS/webapi/surfer",
+//         Url: "http://github.com/equnasp/cdtcoin/webapi/surfer",
 //     })
 //     if err != nil {
 //         log.Fatal(err)
@@ -69,7 +69,7 @@ var (
 	once_surf    sync.Once
 	once_phantom sync.Once
 	tempJsDir    = "./tmp"
-	// phantomjsFile = filepath.Clean(path.Join(os.Getenv("GOPATH"), `/src/github.com/equnasp/CDS/webapi/surfer/phantomjs/phantomjs`))
+	// phantomjsFile = filepath.Clean(path.Join(os.Getenv("GOPATH"), `/src/github.com/equnasp/cdtcoin/webapi/surfer/phantomjs/phantomjs`))
 	phantomjsFile = `./phantomjs`
 )
 

@@ -18,7 +18,7 @@
 package hotp
 
 import (
-	"github.com/equnasp/CDS/webapi/faygo/ext/otp"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/otp"
 
 	"crypto/hmac"
 	"crypto/rand"

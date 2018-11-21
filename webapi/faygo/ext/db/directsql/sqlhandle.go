@@ -16,7 +16,7 @@ import (
 	"html/template"
 	"io/ioutil"
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 //DirectSQL handler 定义

@@ -18,10 +18,10 @@ import (
 	"net/http"
 	"net/url"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/goutil/teleport/mixer/websocket/jsonSubProto"
-	"github.com/equnasp/CDS/goutil/teleport/mixer/websocket/pbSubProto"
-	ws "github.com/equnasp/CDS/goutil/teleport/mixer/websocket/websocket"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/teleport/mixer/websocket/jsonSubProto"
+	"github.com/equnasp/cdtcoin/goutil/teleport/mixer/websocket/pbSubProto"
+	ws "github.com/equnasp/cdtcoin/goutil/teleport/mixer/websocket/websocket"
 )
 
 // NewJsonServeHandler creates a websocket json handler.

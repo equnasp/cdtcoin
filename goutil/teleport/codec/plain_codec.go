@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/equnasp/CDS/goutil"
+	"github.com/equnasp/cdtcoin/goutil"
 )
 
 // plain text codec name and id

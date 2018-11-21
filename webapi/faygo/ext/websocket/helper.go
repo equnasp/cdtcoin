@@ -1,7 +1,7 @@
 package websocket
 
 import (
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 	"net/http"
 )
 

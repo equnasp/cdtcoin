@@ -4,8 +4,8 @@ package qr
 import (
 	"image"
 
-	"github.com/equnasp/CDS/webapi/faygo/ext/barcode"
-	"github.com/equnasp/CDS/webapi/faygo/ext/barcode/utils"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/barcode"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/barcode/utils"
 )
 
 type encodeFn func(content string, eccLevel ErrorCorrectionLevel) (*utils.BitList, *versionInfo, error)

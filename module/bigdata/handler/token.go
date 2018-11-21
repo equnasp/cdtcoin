@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/equnasp/CDS/cdsgo"
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/cdtgo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 	"strconv"
 	"time"
 )
@@ -14,20 +14,20 @@ type Token struct {
 }
 
 func (a *Token) Serve(ctx *faygo.Context) error {
-	var signature = cdsgo.Md5(a.App_id + a.App_secret + "aa3461bd-9105-4191-b19c-944563f26348")
+	var signature = cdtgo.Md5(a.App_id + a.App_secret + "aa3461bd-9105-4191-b19c-944563f26348")
 	var data map[string]string = map[string]string{}
 
 	if signature != a.Signature {
-		return cdsgo.ReturnVal(ctx, "996", data, "signature验证失败")
+		return cdtgo.ReturnVal(ctx, "996", data, "signature验证失败")
 	}
 
 	data["token"] = CreateToken(a.App_id, a.App_secret)
 
-	return cdsgo.ReturnVal(ctx, "1", data, "")
+	return cdtgo.ReturnVal(ctx, "1", data, "")
 }
 
 func CreateToken(App_id string, App_secret string) string {
-	return cdsgo.Md5(App_id + App_secret + strconv.FormatInt(time.Now().UnixNano(), 20))
+	return cdtgo.Md5(App_id + App_secret + strconv.FormatInt(time.Now().UnixNano(), 20))
 }
 
 // 补充API文档信息

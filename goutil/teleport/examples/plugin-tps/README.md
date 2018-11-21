@@ -4,7 +4,7 @@ tps statistics requests per second.
 
 ### Usage
 
-`import tps "github.com/equnasp/CDS/webapi/tp-ext/plugin-tps"`
+`import tps "github.com/equnasp/cdtcoin/webapi/tp-ext/plugin-tps"`
 
 #### Test
 
@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/webapi/teleport"
+	tp "github.com/equnasp/cdtcoin/webapi/teleport"
 )
 
 type Call struct {

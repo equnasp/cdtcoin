@@ -15,5 +15,5 @@
 package faygo
 
 import (
-	_ "github.com/equnasp/CDS/webapi/faygo/_syso"
+	_ "github.com/equnasp/cdtcoin/webapi/faygo/_syso"
 )

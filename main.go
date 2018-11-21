@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/equnasp/CDS/cdsgo"
-	_ "github.com/equnasp/CDS/module/bigdata"
+	"github.com/equnasp/cdtcoin/cdtgo"
+	_ "github.com/equnasp/cdtcoin/module/bigdata"
 )
 
 func main() {
-	app := cdsgo.New()
+	app := cdtgo.New()
 	app.Start()
 }

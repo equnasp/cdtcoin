@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/equnasp/CDS/goutil"
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/goutil/teleport/utils"
+	"github.com/equnasp/cdtcoin/goutil"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/teleport/utils"
 )
 
 const (

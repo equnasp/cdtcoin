@@ -5,7 +5,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/equnasp/CDS/webapi/faygo/freecache/murmur3"
+	"github.com/equnasp/cdtcoin/webapi/faygo/freecache/murmur3"
 )
 
 type Cache struct {

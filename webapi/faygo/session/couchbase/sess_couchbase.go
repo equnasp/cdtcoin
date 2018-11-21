@@ -39,7 +39,7 @@ import (
 
 	couchbase "github.com/couchbase/go-couchbase"
 
-	"github.com/equnasp/CDS/webapi/faygo/session"
+	"github.com/equnasp/cdtcoin/webapi/faygo/session"
 )
 
 var couchbpder = &Provider{}

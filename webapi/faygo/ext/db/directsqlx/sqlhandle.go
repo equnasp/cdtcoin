@@ -17,7 +17,7 @@ import (
 
 	json "github.com/json-iterator/go"
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 //DirectSQL handler 定义

@@ -3,8 +3,8 @@ package xorm
 import (
 	"github.com/go-xorm/core"
 
-	"github.com/equnasp/CDS/webapi/faygo"
-	"github.com/equnasp/CDS/webapi/faygo/logging"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo/logging"
 )
 
 // ILogger logger

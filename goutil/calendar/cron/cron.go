@@ -6,7 +6,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/equnasp/CDS/goutil/calendar"
+	"github.com/equnasp/cdtcoin/goutil/calendar"
 )
 
 // Cron keeps track of any number of entries, invoking the associated func as

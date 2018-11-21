@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"sync"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/goutil/teleport/codec"
-	"github.com/equnasp/CDS/goutil/teleport/mixer/websocket/pbSubProto/pb"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/teleport/codec"
+	"github.com/equnasp/cdtcoin/goutil/teleport/mixer/websocket/pbSubProto/pb"
 )
 
 // NewPbSubProtoFunc is creation function of PROTOBUF socket protocol.

@@ -4,7 +4,7 @@ package ignorecase
 import (
 	"strings"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
 )
 
 // NewIgnoreCase Returns a ignoreCase plugin.

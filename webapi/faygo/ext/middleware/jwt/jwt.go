@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 	"gopkg.in/dgrijalva/jwt-go.v3"
 )
 

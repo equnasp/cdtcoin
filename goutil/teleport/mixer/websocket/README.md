@@ -4,7 +4,7 @@ Websocket is an extension package that makes the Teleport framework compatible w
 
 ### Usage
 
-`import ws "github.com/equnasp/CDS/webapi/teleport/mixer/websocket"`
+`import ws "github.com/equnasp/cdtcoin/webapi/teleport/mixer/websocket"`
 
 #### Test
 
@@ -16,10 +16,10 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/webapi/teleport"
-	ws "github.com/equnasp/CDS/webapi/teleport/mixer/websocket"
-	"github.com/equnasp/CDS/webapi/teleport/mixer/websocket/jsonSubProto"
-	"github.com/equnasp/CDS/webapi/teleport/mixer/websocket/pbSubProto"
+	tp "github.com/equnasp/cdtcoin/webapi/teleport"
+	ws "github.com/equnasp/cdtcoin/webapi/teleport/mixer/websocket"
+	"github.com/equnasp/cdtcoin/webapi/teleport/mixer/websocket/jsonSubProto"
+	"github.com/equnasp/cdtcoin/webapi/teleport/mixer/websocket/pbSubProto"
 )
 
 type Arg struct {

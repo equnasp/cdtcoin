@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/equnasp/CDS/webapi/faygo/gracenet"
-	"github.com/equnasp/CDS/webapi/faygo/logging"
+	"github.com/equnasp/cdtcoin/webapi/faygo/gracenet"
+	"github.com/equnasp/cdtcoin/webapi/faygo/logging"
 	"golang.org/x/crypto/acme/autocert"
 )
 

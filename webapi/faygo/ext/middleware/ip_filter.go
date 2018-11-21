@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 // NewIPFilter creates middleware that intercepts the specified IP prefix.

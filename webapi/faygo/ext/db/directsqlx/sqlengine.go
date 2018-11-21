@@ -16,7 +16,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 	"github.com/jmoiron/sqlx"
 )
 

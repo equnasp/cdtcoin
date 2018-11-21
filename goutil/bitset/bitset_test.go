@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/equnasp/CDS/goutil/bitset"
+	"github.com/equnasp/cdtcoin/goutil/bitset"
 )
 
 func TestBitSet(t *testing.T) {

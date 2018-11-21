@@ -7,8 +7,8 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/equnasp/CDS/goutil"
-	"github.com/equnasp/CDS/goutil/teleport/utils"
+	"github.com/equnasp/cdtcoin/goutil"
+	"github.com/equnasp/cdtcoin/goutil/teleport/utils"
 )
 
 type (

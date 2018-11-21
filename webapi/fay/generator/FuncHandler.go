@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 type (
@@ -91,7 +91,7 @@ func (s *FuncHandler) TryMainPkg(mainPkgPath string) {
 	s.isMainPkg = true
 }
 
-// PkgPath returns the package path, e.g `github.com/equnasp/CDS/webapi/fay/test`
+// PkgPath returns the package path, e.g `github.com/equnasp/cdtcoin/webapi/fay/test`
 func (s *FuncHandler) PkgPath() string {
 	if s.isMainPkg || s.Dir == "" {
 		return ""
@@ -139,7 +139,7 @@ func (s *FuncHandler) init() error {
 	s.Note = strings.TrimSpace(s.Note)
 	if len(s.importmap) == 0 {
 		s.importmap = map[string]bool{
-			"github.com/equnasp/CDS/webapi/faygo": true,
+			"github.com/equnasp/cdtcoin/webapi/faygo": true,
 		}
 	}
 	return nil

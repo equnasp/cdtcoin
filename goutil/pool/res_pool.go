@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/equnasp/CDS/goutil/coarsetime"
+	"github.com/equnasp/cdtcoin/goutil/coarsetime"
 )
 
 // ResPool is a high availability/high concurrent resource pool, which automatically manages the number of resources.

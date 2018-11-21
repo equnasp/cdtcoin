@@ -24,10 +24,10 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/equnasp/CDS/goutil"
-	"github.com/equnasp/CDS/goutil/teleport/codec"
-	"github.com/equnasp/CDS/goutil/teleport/utils"
-	"github.com/equnasp/CDS/goutil/teleport/xfer"
+	"github.com/equnasp/cdtcoin/goutil"
+	"github.com/equnasp/cdtcoin/goutil/teleport/codec"
+	"github.com/equnasp/cdtcoin/goutil/teleport/utils"
+	"github.com/equnasp/cdtcoin/goutil/teleport/xfer"
 )
 
 type (

@@ -5,10 +5,10 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/equnasp/CDS/goutil/teleport/codec"
-	"github.com/equnasp/CDS/goutil/teleport/socket"
+	"github.com/equnasp/cdtcoin/goutil/teleport/codec"
+	"github.com/equnasp/cdtcoin/goutil/teleport/socket"
 
-	"github.com/equnasp/CDS/goutil/teleport/socket/example/pb"
+	"github.com/equnasp/cdtcoin/goutil/teleport/socket/example/pb"
 )
 
 //go:generate go build $GOFILE

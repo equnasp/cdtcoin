@@ -29,9 +29,9 @@ import (
 	"strings"
 	"sync"
 
-	confpkg "github.com/equnasp/CDS/goutil/ini"
-	"github.com/equnasp/CDS/webapi/faygo"
-	faygoxorm "github.com/equnasp/CDS/webapi/faygo/ext/db/xorm"
+	confpkg "github.com/equnasp/cdtcoin/goutil/ini"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
+	faygoxorm "github.com/equnasp/cdtcoin/webapi/faygo/ext/db/xorm"
 	"github.com/fsnotify/fsnotify"
 	"github.com/go-xorm/core"
 )

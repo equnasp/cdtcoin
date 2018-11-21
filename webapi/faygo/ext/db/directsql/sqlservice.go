@@ -19,7 +19,7 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 	"github.com/go-xorm/core"
 )
 

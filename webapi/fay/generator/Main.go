@@ -44,7 +44,7 @@ func NewMain(dir string) (*Main, error) {
 	m := &Main{
 		dir: dir,
 		importmap: map[string]bool{
-			"github.com/equnasp/CDS/webapi/faygo": true,
+			"github.com/equnasp/cdtcoin/webapi/faygo": true,
 		},
 	}
 	return m, nil

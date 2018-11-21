@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/equnasp/CDS/goutil/teleport/utils"
+	"github.com/equnasp/cdtcoin/goutil/teleport/utils"
 )
 
 func TestRerror(t *testing.T) {

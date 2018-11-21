@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
 )
 
 //go:generate go build $GOFILE

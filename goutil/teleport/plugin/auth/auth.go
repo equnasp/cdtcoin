@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/equnasp/CDS/goutil"
-	tp "github.com/equnasp/CDS/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
 )
 
 // A auth plugin for verifying peer at the first time.

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/equnasp/CDS/goutil/teleport/xfer/gzip"
+	"github.com/equnasp/cdtcoin/goutil/teleport/xfer/gzip"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
 )
 
 //go:generate go build $GOFILE

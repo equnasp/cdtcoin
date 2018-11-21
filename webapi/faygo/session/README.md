@@ -18,7 +18,7 @@ As of now this session manager support memory, file, Redis and MySQL.
 First you must import it
 
 	import (
-		"github.com/equnasp/CDS/webapi/faygo/session"
+		"github.com/equnasp/cdtcoin/webapi/faygo/session"
 	)
 
 Then in you web app init the global session manager

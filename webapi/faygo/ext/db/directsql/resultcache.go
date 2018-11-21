@@ -9,7 +9,7 @@
 package directsql
 
 import (
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 	"sync"
 	"time"
 )

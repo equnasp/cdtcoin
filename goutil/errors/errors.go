@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/equnasp/CDS/goutil"
+	"github.com/equnasp/cdtcoin/goutil"
 )
 
 // New returns an error that formats as the given text.

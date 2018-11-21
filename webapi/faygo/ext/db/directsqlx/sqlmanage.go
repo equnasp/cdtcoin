@@ -22,9 +22,9 @@ import (
 	"strings"
 	"sync"
 
-	confpkg "github.com/equnasp/CDS/goutil/ini"
-	"github.com/equnasp/CDS/webapi/faygo"
-	faygosqlx "github.com/equnasp/CDS/webapi/faygo/ext/db/sqlx"
+	confpkg "github.com/equnasp/cdtcoin/goutil/ini"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
+	faygosqlx "github.com/equnasp/cdtcoin/webapi/faygo/ext/db/sqlx"
 	"github.com/fsnotify/fsnotify"
 	"github.com/jmoiron/sqlx"
 )

@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/goutil/teleport/proto/jsonproto"
-	"github.com/equnasp/CDS/goutil/teleport/xfer/gzip"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/teleport/proto/jsonproto"
+	"github.com/equnasp/cdtcoin/goutil/teleport/xfer/gzip"
 )
 
 type Home struct {

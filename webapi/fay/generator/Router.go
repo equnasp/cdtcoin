@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 // Router returns project router codes
@@ -52,7 +52,7 @@ func (r *Router) init() error {
 	}
 	if len(r.importmap) == 0 {
 		r.importmap = map[string]bool{
-			"github.com/equnasp/CDS/webapi/faygo": true,
+			"github.com/equnasp/cdtcoin/webapi/faygo": true,
 		}
 	}
 	return nil
@@ -197,7 +197,7 @@ func (r *Router) Create() string {
 	return fmt.Sprintf("package %s\n%s\n%s", r.PkgName(), importCode(r.importmap), code)
 }
 
-// PkgPath returns the package path, e.g `github.com/equnasp/CDS/webapi/fay/test`
+// PkgPath returns the package path, e.g `github.com/equnasp/cdtcoin/webapi/fay/test`
 func (r *Router) PkgPath() string {
 	if r.isMainPkg || r.dir == "" {
 		return ""

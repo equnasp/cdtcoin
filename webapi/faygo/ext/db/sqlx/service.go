@@ -14,7 +14,7 @@ import (
 	// _ "github.com/mattn/go-oci8"         //oracle(need to install the pkg-config utility)
 	// _ "github.com/mattn/go-sqlite3"      //sqlite
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 // DBService is a database engine object.

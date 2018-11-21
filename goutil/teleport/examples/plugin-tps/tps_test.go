@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
 )
 
 //go:generate go test -v -run=^TestTPS$

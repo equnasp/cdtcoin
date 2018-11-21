@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/equnasp/CDS/goutil/calendar"
+	"github.com/equnasp/cdtcoin/goutil/calendar"
 )
 
 // Many tests schedule a job for every second, and then wait at most a second

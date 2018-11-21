@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/equnasp/CDS/webapi/faygo/pongo2"
+	"github.com/equnasp/cdtcoin/webapi/faygo/pongo2"
 )
 
 type (

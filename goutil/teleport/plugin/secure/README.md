@@ -4,7 +4,7 @@ Package secure encrypting/decrypting the message body.
 
 ### Usage
 
-`import "github.com/equnasp/CDS/webapi/teleport/plugin/secure"`
+`import "github.com/equnasp/cdtcoin/webapi/teleport/plugin/secure"`
 
 Ciphertext struct:
 
@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/webapi/teleport"
-	"github.com/equnasp/CDS/webapi/teleport/plugin/secure"
+	tp "github.com/equnasp/cdtcoin/webapi/teleport"
+	"github.com/equnasp/cdtcoin/webapi/teleport/plugin/secure"
 )
 
 type Arg struct {

@@ -1,4 +1,4 @@
-# Apiware    [![GoDoc](https://godoc.org/github.com/tsuna/gohbase?status.png)](https://godoc.org/github.com/equnasp/CDS/webapi/faygo/apiware)
+# Apiware    [![GoDoc](https://godoc.org/github.com/tsuna/gohbase?status.png)](https://godoc.org/github.com/equnasp/cdtcoin/webapi/faygo/apiware)
 
 Apiware binds the specified parameters of the Golang `net/http` and `fasthttp` requests to the structure and verifies the validity of the parameter values.
 
@@ -14,7 +14,7 @@ package main
 
 import (
     "encoding/json"
-    "github.com/equnasp/CDS/webapi/faygo/apiware"
+    "github.com/equnasp/cdtcoin/webapi/faygo/apiware"
     // "mime/multipart"
     "net/http"
     "strings"

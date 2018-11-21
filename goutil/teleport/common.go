@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/equnasp/CDS/goutil"
-	"github.com/equnasp/CDS/goutil/pool"
-	"github.com/equnasp/CDS/goutil/teleport/codec"
-	"github.com/equnasp/CDS/goutil/teleport/socket"
-	"github.com/equnasp/CDS/goutil/teleport/utils"
+	"github.com/equnasp/cdtcoin/goutil"
+	"github.com/equnasp/cdtcoin/goutil/pool"
+	"github.com/equnasp/cdtcoin/goutil/teleport/codec"
+	"github.com/equnasp/cdtcoin/goutil/teleport/socket"
+	"github.com/equnasp/cdtcoin/goutil/teleport/utils"
 )
 
 // Message types

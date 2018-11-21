@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/equnasp/CDS/goutil/teleport/utils"
-	"github.com/equnasp/CDS/goutil/teleport/xfer"
+	"github.com/equnasp/cdtcoin/goutil/teleport/utils"
+	"github.com/equnasp/cdtcoin/goutil/teleport/xfer"
 )
 
 // Reg registers a gzip filter for transfer.

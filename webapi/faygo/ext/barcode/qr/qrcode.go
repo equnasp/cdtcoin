@@ -5,8 +5,8 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/equnasp/CDS/webapi/faygo/ext/barcode"
-	"github.com/equnasp/CDS/webapi/faygo/ext/barcode/utils"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/barcode"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/barcode/utils"
 )
 
 type qrcode struct {

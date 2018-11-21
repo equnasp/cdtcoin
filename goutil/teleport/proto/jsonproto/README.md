@@ -14,7 +14,7 @@ jsonproto is implemented JSON socket communication protocol.
 
 ### Usage
 
-`import "github.com/equnasp/CDS/webapi/teleport/proto/jsonproto"`
+`import "github.com/equnasp/cdtcoin/webapi/teleport/proto/jsonproto"`
 
 #### Test
 
@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/webapi/teleport"
-	"github.com/equnasp/CDS/webapi/teleport/proto/jsonproto"
-	"github.com/equnasp/CDS/webapi/teleport/xfer/gzip"
+	tp "github.com/equnasp/cdtcoin/webapi/teleport"
+	"github.com/equnasp/cdtcoin/webapi/teleport/proto/jsonproto"
+	"github.com/equnasp/cdtcoin/webapi/teleport/xfer/gzip"
 )
 
 type Home struct {

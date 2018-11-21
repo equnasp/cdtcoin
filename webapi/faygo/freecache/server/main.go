@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/equnasp/CDS/webapi/faygo/freecache"
+	"github.com/equnasp/cdtcoin/webapi/faygo/freecache"
 )
 
 var (

@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/equnasp/CDS/goutil"
-	"github.com/equnasp/CDS/goutil/errors"
-	"github.com/equnasp/CDS/goutil/graceful"
-	"github.com/equnasp/CDS/goutil/graceful/inherit_net"
+	"github.com/equnasp/cdtcoin/goutil"
+	"github.com/equnasp/cdtcoin/goutil/errors"
+	"github.com/equnasp/cdtcoin/goutil/graceful"
+	"github.com/equnasp/cdtcoin/goutil/graceful/inherit_net"
 )
 
 var peers = struct {

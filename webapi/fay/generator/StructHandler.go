@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 /*Param tag value description:
@@ -158,7 +158,7 @@ func (s *StructHandler) TryMainPkg(mainPkgPath string) {
 	s.isMainPkg = true
 }
 
-// PkgPath returns the package path, e.g `github.com/equnasp/CDS/webapi/fay/test`
+// PkgPath returns the package path, e.g `github.com/equnasp/cdtcoin/webapi/fay/test`
 func (s *StructHandler) PkgPath() string {
 	if s.isMainPkg || s.Dir == "" {
 		return ""
@@ -206,7 +206,7 @@ func (s *StructHandler) init() error {
 	s.Note = strings.TrimSpace(s.Note)
 	if len(s.importmap) == 0 {
 		s.importmap = map[string]bool{
-			"github.com/equnasp/CDS/webapi/faygo": true,
+			"github.com/equnasp/cdtcoin/webapi/faygo": true,
 		}
 	}
 

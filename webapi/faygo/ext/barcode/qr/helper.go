@@ -6,7 +6,7 @@ import (
 	"image/jpeg"
 	"image/png"
 
-	"github.com/equnasp/CDS/webapi/faygo/ext/barcode"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/barcode"
 )
 
 // 常见二维码边长

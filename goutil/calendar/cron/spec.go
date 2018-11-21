@@ -3,7 +3,7 @@ package cron
 import (
 	"time"
 
-	"github.com/equnasp/CDS/goutil/calendar"
+	"github.com/equnasp/cdtcoin/goutil/calendar"
 )
 
 // SpecSchedule specifies a duty cycle (to the second granularity), based on a

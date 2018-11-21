@@ -22,8 +22,8 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/equnasp/CDS/goutil"
-	"github.com/equnasp/CDS/goutil/errors"
+	"github.com/equnasp/cdtcoin/goutil"
+	"github.com/equnasp/cdtcoin/goutil/errors"
 )
 
 /**

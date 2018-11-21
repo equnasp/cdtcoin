@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/equnasp/CDS/webapi/cfgo"
-	"github.com/equnasp/CDS/webapi/cfgo/test/m1"
-	_ "github.com/equnasp/CDS/webapi/cfgo/test/m2"
+	"github.com/equnasp/cdtcoin/webapi/cfgo"
+	"github.com/equnasp/cdtcoin/webapi/cfgo/test/m1"
+	_ "github.com/equnasp/cdtcoin/webapi/cfgo/test/m2"
 )
 
 type T struct {

@@ -29,7 +29,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/equnasp/CDS/webapi/faygo/acceptencoder"
+	"github.com/equnasp/cdtcoin/webapi/faygo/acceptencoder"
 )
 
 // Size returns the current size, in bytes, of the response.

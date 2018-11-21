@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/equnasp/CDS/webapi/faygo/ext/barcode"
-	"github.com/equnasp/CDS/webapi/faygo/ext/barcode/utils"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/barcode"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/barcode/utils"
 )
 
 var encodingTable = map[rune][]bool{

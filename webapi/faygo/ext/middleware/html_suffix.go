@@ -20,7 +20,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 //AutoHTMLSuffix adds smartly .html suffix to static route

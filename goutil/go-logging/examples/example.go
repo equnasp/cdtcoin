@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/equnasp/CDS/webapi/go-logging"
+	"github.com/equnasp/cdtcoin/webapi/go-logging"
 )
 
 var log = logging.NewLogger("example")

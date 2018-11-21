@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/equnasp/CDS/webapi/faygo/apiware"
+	"github.com/equnasp/cdtcoin/webapi/faygo/apiware"
 )
 
 type (

@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/equnasp/CDS/webapi/faygo/acceptencoder"
-	"github.com/equnasp/CDS/webapi/faygo/apiware"
-	"github.com/equnasp/CDS/webapi/faygo/logging"
+	"github.com/equnasp/cdtcoin/webapi/faygo/acceptencoder"
+	"github.com/equnasp/cdtcoin/webapi/faygo/apiware"
+	"github.com/equnasp/cdtcoin/webapi/faygo/logging"
 )
 
 const (

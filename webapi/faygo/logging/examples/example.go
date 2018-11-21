@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/equnasp/CDS/webapi/faygo/logging"
+	"github.com/equnasp/cdtcoin/webapi/faygo/logging"
 )
 
 var log = logging.NewLogger("example")

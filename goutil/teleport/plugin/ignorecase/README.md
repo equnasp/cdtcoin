@@ -4,7 +4,7 @@ Dynamically ignoring the case of path
 
 ### Usage
 
-`import "github.com/equnasp/CDS/webapi/teleport/plugin/ignorecase"`
+`import "github.com/equnasp/cdtcoin/webapi/teleport/plugin/ignorecase"`
 
 #### Test
 
@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/webapi/teleport"
-	"github.com/equnasp/CDS/webapi/teleport/plugin/ignorecase"
+	tp "github.com/equnasp/cdtcoin/webapi/teleport"
+	"github.com/equnasp/cdtcoin/webapi/teleport/plugin/ignorecase"
 )
 
 type Home struct {

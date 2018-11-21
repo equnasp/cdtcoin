@@ -27,7 +27,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/equnasp/CDS/goutil"
+	"github.com/equnasp/cdtcoin/goutil"
 )
 
 func init() {

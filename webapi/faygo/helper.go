@@ -24,10 +24,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/equnasp/CDS/goutil/ini"
+	"github.com/equnasp/cdtcoin/goutil/ini"
 
-	"github.com/equnasp/CDS/goutil"
-	"github.com/equnasp/CDS/goutil/errors"
+	"github.com/equnasp/cdtcoin/goutil"
+	"github.com/equnasp/cdtcoin/goutil/errors"
 )
 
 // JoinStatic adds the static directory prefix to the file name.

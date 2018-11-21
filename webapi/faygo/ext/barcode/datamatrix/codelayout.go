@@ -1,7 +1,7 @@
 package datamatrix
 
 import (
-	"github.com/equnasp/CDS/webapi/faygo/ext/barcode/utils"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/barcode/utils"
 )
 
 type setValFunc func(byte)

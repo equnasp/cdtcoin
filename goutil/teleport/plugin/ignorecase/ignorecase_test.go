@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/goutil/teleport/plugin/ignorecase"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/teleport/plugin/ignorecase"
 )
 
 type Home struct {

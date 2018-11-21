@@ -5,9 +5,9 @@ import (
 	// _ "net/http/pprof"
 	"time"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/goutil/teleport/proto/pbproto"
-	"github.com/equnasp/CDS/goutil/teleport/socket/example/pb"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/teleport/proto/pbproto"
+	"github.com/equnasp/cdtcoin/goutil/teleport/socket/example/pb"
 )
 
 //go:generate go build $GOFILE

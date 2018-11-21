@@ -2,7 +2,7 @@ package cdtgo
 
 import (
 	"fmt"
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 type Frame struct {
@@ -27,7 +27,7 @@ type Need interface {
 }
 
 func (frame *Frame) Start() {
-	app := faygo.New("api_server")
+	app := faygo.New("cdtcoin")
 	for name, m := range module {
 		if m.Flag() {
 			go m.InitWebApi(app)

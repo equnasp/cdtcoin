@@ -24,7 +24,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 // Output returns file.

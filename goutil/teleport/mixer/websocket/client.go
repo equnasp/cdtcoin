@@ -22,8 +22,8 @@ import (
 	"path"
 	"strings"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	ws "github.com/equnasp/CDS/goutil/teleport/mixer/websocket/websocket"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	ws "github.com/equnasp/cdtcoin/goutil/teleport/mixer/websocket/websocket"
 )
 
 // NewDialPlugin creates a websocket plugin for client.

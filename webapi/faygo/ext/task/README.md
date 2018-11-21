@@ -1,6 +1,6 @@
 # Task
 
-[![GoDoc](http://godoc.org/github.com/equnasp/CDS/webapi/faygo/ext/task?status.svg)](http://godoc.org/github.com/equnasp/CDS/webapi/faygo/ext/task)
+[![GoDoc](http://godoc.org/github.com/equnasp/cdtcoin/webapi/faygo/ext/task?status.svg)](http://godoc.org/github.com/equnasp/cdtcoin/webapi/faygo/ext/task)
 
 Task是一个非常易用的定时任务管理工具（移植自beego框架）。
 

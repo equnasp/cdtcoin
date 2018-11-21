@@ -18,8 +18,8 @@ package multiclient
 import (
 	"time"
 
-	"github.com/equnasp/CDS/goutil/pool"
-	tp "github.com/equnasp/CDS/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/pool"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
 )
 
 // MultiClient client session which is has connection pool

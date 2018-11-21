@@ -7,7 +7,7 @@ When the connection is idle more than 3 times the heartbeat time, take the initi
 
 ### Usage
 
-`import "github.com/equnasp/CDS/webapi/teleport/plugin/heartbeat"`
+`import "github.com/equnasp/cdtcoin/webapi/teleport/plugin/heartbeat"`
 
 #### Test
 
@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/webapi/teleport"
-	"github.com/equnasp/CDS/webapi/teleport/plugin/heartbeat"
+	tp "github.com/equnasp/cdtcoin/webapi/teleport"
+	"github.com/equnasp/cdtcoin/webapi/teleport/plugin/heartbeat"
 )
 
 func TestHeartbeatCall1(t *testing.T) {

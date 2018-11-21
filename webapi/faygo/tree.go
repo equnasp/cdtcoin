@@ -9,7 +9,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/equnasp/CDS/webapi/faygo/apiware"
+	"github.com/equnasp/cdtcoin/webapi/faygo/apiware"
 )
 
 // Handle is a function that can be registered to a route to handle HTTP requests.

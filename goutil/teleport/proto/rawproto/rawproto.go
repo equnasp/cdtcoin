@@ -1,7 +1,7 @@
 package rawproto
 
 import (
-	"github.com/equnasp/CDS/goutil/teleport/socket"
+	"github.com/equnasp/cdtcoin/goutil/teleport/socket"
 )
 
 /*

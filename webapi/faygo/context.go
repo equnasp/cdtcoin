@@ -26,8 +26,8 @@ import (
 	"path"
 	"sync"
 
-	"github.com/equnasp/CDS/webapi/faygo/logging"
-	"github.com/equnasp/CDS/webapi/faygo/session"
+	"github.com/equnasp/cdtcoin/webapi/faygo/logging"
+	"github.com/equnasp/cdtcoin/webapi/faygo/session"
 )
 
 // Headers

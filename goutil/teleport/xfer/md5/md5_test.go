@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/goutil/teleport/xfer"
-	"github.com/equnasp/CDS/goutil/teleport/xfer/md5"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/teleport/xfer"
+	"github.com/equnasp/cdtcoin/goutil/teleport/xfer/md5"
 )
 
 func TestSeparate(t *testing.T) {

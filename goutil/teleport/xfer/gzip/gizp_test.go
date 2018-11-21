@@ -3,8 +3,8 @@ package gzip_test
 import (
 	"testing"
 
-	"github.com/equnasp/CDS/goutil/teleport/xfer"
-	"github.com/equnasp/CDS/goutil/teleport/xfer/gzip"
+	"github.com/equnasp/cdtcoin/goutil/teleport/xfer"
+	"github.com/equnasp/cdtcoin/goutil/teleport/xfer/gzip"
 )
 
 func TestGzip(t *testing.T) {

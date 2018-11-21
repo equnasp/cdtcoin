@@ -19,9 +19,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/equnasp/CDS/goutil/graceful"
-	"github.com/equnasp/CDS/webapi/go-logging"
-	"github.com/equnasp/CDS/webapi/go-logging/color"
+	"github.com/equnasp/cdtcoin/goutil/graceful"
+	"github.com/equnasp/cdtcoin/webapi/go-logging"
+	"github.com/equnasp/cdtcoin/webapi/go-logging/color"
 )
 
 // Logger interface

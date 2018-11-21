@@ -17,7 +17,7 @@
 package middleware
 
 import (
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 // CrossOrigin creates Cross-Domain middleware.

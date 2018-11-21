@@ -25,9 +25,9 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/equnasp/CDS/goutil"
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	"github.com/equnasp/CDS/goutil/teleport/utils"
+	"github.com/equnasp/cdtcoin/goutil"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/teleport/utils"
 )
 
 // NewJsonProtoFunc is creation function of JSON socket protocol.

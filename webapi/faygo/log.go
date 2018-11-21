@@ -19,8 +19,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/equnasp/CDS/webapi/faygo/logging"
-	"github.com/equnasp/CDS/webapi/faygo/logging/color"
+	"github.com/equnasp/cdtcoin/webapi/faygo/logging"
+	"github.com/equnasp/cdtcoin/webapi/faygo/logging/color"
 )
 
 // NewLog gets a global logger

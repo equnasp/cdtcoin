@@ -3,7 +3,7 @@ package m1
 import (
 	"fmt"
 
-	"github.com/equnasp/CDS/webapi/cfgo"
+	"github.com/equnasp/cdtcoin/webapi/cfgo"
 )
 
 type T1 struct {

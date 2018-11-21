@@ -7,12 +7,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/equnasp/CDS/goutil"
-	"github.com/equnasp/CDS/goutil/errors"
+	"github.com/equnasp/cdtcoin/goutil"
+	"github.com/equnasp/cdtcoin/goutil/errors"
 )
 
 // SyncINI quickly create your own configuration files.
-// Struct tags reference `https://github.com/equnasp/CDS/webapi/ini`
+// Struct tags reference `https://github.com/equnasp/cdtcoin/webapi/ini`
 func SyncINI(structPtr interface{}, f func(onecUpdateFunc func() error) error, filename ...string) error {
 	t := reflect.TypeOf(structPtr)
 	if t.Kind() != reflect.Ptr {

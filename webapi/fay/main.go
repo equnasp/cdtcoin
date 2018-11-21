@@ -39,8 +39,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/equnasp/CDS/webapi/fay/model"
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/fay/model"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 )
 
 var appname string

@@ -4,7 +4,7 @@ package datamatrix
 import (
 	"errors"
 
-	"github.com/equnasp/CDS/webapi/faygo/ext/barcode"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/barcode"
 )
 
 // Encode returns a Datamatrix barcode for the given content

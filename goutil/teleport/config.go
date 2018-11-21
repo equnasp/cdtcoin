@@ -21,14 +21,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/equnasp/CDS/goutil/teleport/socket"
-	"github.com/equnasp/CDS/webapi/cfgo"
+	"github.com/equnasp/cdtcoin/goutil/teleport/socket"
+	"github.com/equnasp/cdtcoin/webapi/cfgo"
 )
 
 // PeerConfig peer config
 // Note:
-//  yaml tag is used for github.com/equnasp/CDS/webapi/cfgo
-//  ini tag is used for github.com/equnasp/CDS/webapi/ini
+//  yaml tag is used for github.com/equnasp/cdtcoin/webapi/cfgo
+//  ini tag is used for github.com/equnasp/cdtcoin/webapi/ini
 type PeerConfig struct {
 	Network            string        `yaml:"network"              ini:"network"              comment:"Network; tcp, tcp4, tcp6, unix or unixpacket"`
 	LocalIP            string        `yaml:"local_ip"             ini:"local_ip"             comment:"Local IP"`

@@ -3,17 +3,17 @@ package cdtgo
 import (
 	"crypto/md5"
 	"fmt"
-	"github.com/equnasp/CDS/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
 	"io"
 )
 
 const (
 	VERSION = "1.0.0"
 	BANNER  = `
-   __    ____  _  _    ____  _____  _  _ 
-  /__\  (_  _)( \/ )  (  _ \(  _  )( \/ )
- /(__)\  _)(_  )  (    ) _ < )(_)(  )  ( 
-(__)(__)(____)(_/\_)  (____/(_____)(_/\_)  VERSION ` + VERSION + "\n"
+  ___  ____   ____     ___  _____  ____  _  _ 
+ / __)(  _ \ (_  _)   / __)(  _  )(_  _)( \( )
+( (__  )(_) )  )(    ( (__  )(_)(  _)(_  )  ( 
+ \___)(____/  (__)    \___)(_____)(____)(_)\_)  VERSION ` + VERSION + "\n"
 )
 
 func New() *Frame {

@@ -5,7 +5,7 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/equnasp/CDS/webapi/faygo/ext/barcode"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/barcode"
 )
 
 type base1DCode struct {

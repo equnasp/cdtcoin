@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/equnasp/CDS/goutil/coarsetime"
-	tp "github.com/equnasp/CDS/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil/coarsetime"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
 )
 
 const (

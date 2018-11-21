@@ -25,10 +25,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/equnasp/CDS/webapi/faygo/logging"
-	"github.com/equnasp/CDS/webapi/faygo/logging/color"
-	"github.com/equnasp/CDS/webapi/faygo/session"
-	"github.com/equnasp/CDS/webapi/faygo/swagger"
+	"github.com/equnasp/cdtcoin/webapi/faygo/logging"
+	"github.com/equnasp/cdtcoin/webapi/faygo/logging/color"
+	"github.com/equnasp/cdtcoin/webapi/faygo/session"
+	"github.com/equnasp/cdtcoin/webapi/faygo/swagger"
 )
 
 // Framework is the faygo web framework.

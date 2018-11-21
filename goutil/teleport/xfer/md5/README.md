@@ -4,7 +4,7 @@ Provides a integrity check transfer filter
 
 ### Usage
 
-`import "github.com/equnasp/CDS/webapi/teleport/xfer/md5"`
+`import "github.com/equnasp/cdtcoin/webapi/teleport/xfer/md5"`
 
 #### Test
 
@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/webapi/teleport"
-	"github.com/equnasp/CDS/webapi/teleport/xfer"
-	"github.com/equnasp/CDS/webapi/teleport/xfer/md5"
+	tp "github.com/equnasp/cdtcoin/webapi/teleport"
+	"github.com/equnasp/cdtcoin/webapi/teleport/xfer"
+	"github.com/equnasp/cdtcoin/webapi/teleport/xfer/md5"
 )
 
 func TestSeparate(t *testing.T) {

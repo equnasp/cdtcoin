@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/equnasp/CDS/goutil/calendar"
+	"github.com/equnasp/cdtcoin/goutil/calendar"
 	"time"
 )
 

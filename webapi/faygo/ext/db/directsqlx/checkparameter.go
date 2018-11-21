@@ -16,8 +16,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/equnasp/CDS/webapi/faygo"
-	"github.com/equnasp/CDS/webapi/faygo/ext/uuid"
+	"github.com/equnasp/cdtcoin/webapi/faygo"
+	"github.com/equnasp/cdtcoin/webapi/faygo/ext/uuid"
 )
 
 // 类型判断正则表达式定义

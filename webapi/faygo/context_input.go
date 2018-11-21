@@ -35,7 +35,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/equnasp/CDS/webapi/faygo/apiware"
+	"github.com/equnasp/cdtcoin/webapi/faygo/apiware"
 )
 
 // Regexes for checking the accept headers

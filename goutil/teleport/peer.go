@@ -24,10 +24,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/equnasp/CDS/goutil"
-	"github.com/equnasp/CDS/goutil/coarsetime"
-	"github.com/equnasp/CDS/goutil/errors"
-	"github.com/equnasp/CDS/goutil/teleport/codec"
+	"github.com/equnasp/cdtcoin/goutil"
+	"github.com/equnasp/cdtcoin/goutil/coarsetime"
+	"github.com/equnasp/cdtcoin/goutil/errors"
+	"github.com/equnasp/cdtcoin/goutil/teleport/codec"
 )
 
 type (

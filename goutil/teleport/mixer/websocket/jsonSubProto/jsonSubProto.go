@@ -9,8 +9,8 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/equnasp/CDS/goutil"
-	tp "github.com/equnasp/CDS/goutil/teleport"
+	"github.com/equnasp/cdtcoin/goutil"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
 	"github.com/tidwall/gjson"
 )
 

@@ -4,7 +4,7 @@ Parameter Binding Verification Plugin for Struct Handler.
 
 ### Usage
 
-`import "github.com/equnasp/CDS/webapi/teleport/plugin/binder"`
+`import "github.com/equnasp/cdtcoin/webapi/teleport/plugin/binder"`
 
 #### Param-Tags
 
@@ -57,8 +57,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/webapi/teleport"
-	"github.com/equnasp/CDS/webapi/teleport/plugin/binder"
+	tp "github.com/equnasp/cdtcoin/webapi/teleport"
+	"github.com/equnasp/cdtcoin/webapi/teleport/plugin/binder"
 )
 
 type (

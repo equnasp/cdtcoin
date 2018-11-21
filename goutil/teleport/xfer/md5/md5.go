@@ -6,7 +6,7 @@ import (
 	"crypto/md5"
 	"errors"
 
-	"github.com/equnasp/CDS/goutil/teleport/xfer"
+	"github.com/equnasp/cdtcoin/goutil/teleport/xfer"
 )
 
 // Reg registers a md5 checker filter for transfer.

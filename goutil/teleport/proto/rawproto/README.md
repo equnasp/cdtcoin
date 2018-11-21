@@ -25,7 +25,7 @@ NOTE: Big Endian
 
 ### Usage
 
-`import "github.com/equnasp/CDS/webapi/teleport/proto/pbproto"`
+`import "github.com/equnasp/cdtcoin/webapi/teleport/proto/pbproto"`
 
 #### Test
 
@@ -36,9 +36,9 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/webapi/teleport"
-	"github.com/equnasp/CDS/webapi/teleport/proto/pbproto"
-	"github.com/equnasp/CDS/webapi/teleport/xfer/gzip"
+	tp "github.com/equnasp/cdtcoin/webapi/teleport"
+	"github.com/equnasp/cdtcoin/webapi/teleport/proto/pbproto"
+	"github.com/equnasp/cdtcoin/webapi/teleport/xfer/gzip"
 )
 
 type Home struct {

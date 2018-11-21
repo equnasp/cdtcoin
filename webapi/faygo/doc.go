@@ -23,7 +23,7 @@ A trivial example is:
     import (
         // "mime/multipart"
         "time"
-        "github.com/equnasp/CDS/webapi/faygo"
+        "github.com/equnasp/cdtcoin/webapi/faygo"
     )
 
     type Index struct {

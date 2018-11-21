@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/equnasp/CDS/goutil/teleport"
-	ws "github.com/equnasp/CDS/goutil/teleport/mixer/websocket"
-	"github.com/equnasp/CDS/goutil/teleport/mixer/websocket/jsonSubProto"
-	"github.com/equnasp/CDS/goutil/teleport/mixer/websocket/pbSubProto"
+	tp "github.com/equnasp/cdtcoin/goutil/teleport"
+	ws "github.com/equnasp/cdtcoin/goutil/teleport/mixer/websocket"
+	"github.com/equnasp/cdtcoin/goutil/teleport/mixer/websocket/jsonSubProto"
+	"github.com/equnasp/cdtcoin/goutil/teleport/mixer/websocket/pbSubProto"
 )
 
 type Arg struct {
