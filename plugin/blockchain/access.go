@@ -1,4 +1,4 @@
-package api
+package blockchain
 
 import (
 	"github.com/equnasp/cdtcoin/cdtgo"
@@ -13,8 +13,8 @@ type obj struct{}
 
 func (p obj) GetInfo() cdtgo.Frame {
 	return cdtgo.Frame{
-		Name:    "BigData",
-		CName:   "大数据处理模块",
+		Name:    "Blockchain",
+		CName:   "区块链模块",
 		Version: "1.0",
 	}
 }

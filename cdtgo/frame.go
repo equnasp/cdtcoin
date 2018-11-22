@@ -11,11 +11,11 @@ type Frame struct {
 }
 
 var (
-	module map[string]Need
+	plugin map[string]Need
 )
 
 func init() {
-	module = make(map[string]Need)
+	plugin = make(map[string]Need)
 }
 
 type Need interface {
@@ -25,7 +25,7 @@ type Need interface {
 }
 
 func (frame *Frame) Start() {
-	for name, m := range module {
+	for name, m := range plugin {
 		if m.Flag() {
 			go m.OnStart()
 			fmt.Printf("启动插件：%s\n", name)
@@ -38,5 +38,5 @@ func (frame *Frame) Start() {
 //每个插件在初始化时必须注册
 func Register(m Need) {
 	info := m.GetInfo()
-	module[info.Name] = m
+	plugin[info.Name] = m
 }
