@@ -22,7 +22,7 @@ func New(previousHash string, data string) *Block {
 	block.Data = data
 	block.PreviousHash = previousHash
 	block.TimeStamp = time.Now().UnixNano()
-	block.createHash(4)
+	block.createHash(1)
 	return block
 }
 
