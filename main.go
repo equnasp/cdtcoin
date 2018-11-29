@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/equnasp/cdtcoin/cdtgo"
-	"github.com/equnasp/cdtcoin/plugin/blockchain"
+	"github.com/equnasp/cdtcoin/module/coin"
 	_ "github.com/equnasp/cdtcoin/plugin/blockchain"
 )
 
@@ -13,7 +13,7 @@ func main() {
 	app := cdtgo.New()
 	app.Start()
 
-	block := blockchain.New("0", "test")
+	block := coin.NewBlock("0", []byte("test"))
 
-	fmt.Print(block.Hash)
+	fmt.Println(block.Hash)
 }

@@ -1,7 +1,5 @@
 package sha256
 
-const Size = 32
-
 const (
 	chunk = 64
 	init0 = 0x6A09E667
@@ -145,7 +143,7 @@ func (d *digest) Write(p []byte) (nn int, err error) {
 	return
 }
 
-func (d *digest) checkSum() [Size]byte {
+func (d *digest) checkSum() [32]byte {
 	len := d.len
 	// Padding. Add a 1 bit and 0 bits until 56 bytes mod 64.
 	var tmp [64]byte
@@ -165,7 +163,7 @@ func (d *digest) checkSum() [Size]byte {
 		panic("d.nx != 0")
 	}
 
-	var digest [Size]byte
+	var digest [32]byte
 
 	putUint32(digest[0:], d.h[0])
 	putUint32(digest[4:], d.h[1])
@@ -229,7 +227,7 @@ func blockGeneric(dig *digest, p []byte) {
 	dig.h[0], dig.h[1], dig.h[2], dig.h[3], dig.h[4], dig.h[5], dig.h[6], dig.h[7] = h0, h1, h2, h3, h4, h5, h6, h7
 }
 
-func Sum256(data []byte) [Size]byte {
+func Sum256(data []byte) [32]byte {
 	var d digest
 	d.Reset()
 	d.Write(data)
