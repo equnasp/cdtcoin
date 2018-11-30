@@ -1,13 +1,7 @@
 package coin
 
 import (
-	"bytes"
-	"fmt"
-	"github.com/equnasp/cdtcoin/cdtgo/sha256"
 	"github.com/equnasp/cdtcoin/config"
-	"math/rand"
-	"strconv"
-	"strings"
 	"time"
 )
 
@@ -24,19 +18,19 @@ type Block struct {
 // BlockHeader Block header information(区块头信息)
 type BlockHeader struct {
 	// Version ...
-	Version string
+	Version []byte
 	// Hash Current block HASH(当前块的HASH)
-	Hash string
+	Hash []byte
 	// PreviousHash Previous block of HASH(上一个块的HASH)
-	PreviousHash string
+	PreviousHash []byte
 	// Index Block index(区块索引)
 	Index int64
 	// Coinbase The address of the person who dug out the block(挖出该区块的人的地址)
-	Coinbase string
+	Coinbase []byte
 	// Difficulty degree of difficulty(难度系数)
 	Difficulty int
 	// Nonce ...
-	Nonce int64
+	Nonce int
 	// TimeStamp time(时间)
 	TimeStamp int64
 }
@@ -51,7 +45,7 @@ func NewBlock(previousHeader *BlockHeader, index int64, data []byte) *Block {
 		header.Index = index + 1
 	}
 
-	header.Version = config.VERSION
+	header.Version = []byte(config.VERSION)
 
 	header.TimeStamp = time.Now().UnixNano()
 	block := new(Block)
@@ -65,51 +59,13 @@ func NewBlock(previousHeader *BlockHeader, index int64, data []byte) *Block {
 	}
 
 	block.Header = header
-	block.generateBlockHash(1)
+	block.generateBlockHash(27)
 	return block
 }
 
 // generateBlockHash Generate block HASH(生成区块HASH)
-func (b *Block) generateBlockHash(diff int) {
-	header := b.Header
-	previousHeader := b.PreviousHeader
-	rand.Seed(time.Now().UnixNano())
-
-	for {
-		nonceTmp := rand.Int63n(999999999999999999)
-		header.Nonce = nonceTmp
-		header.Difficulty = diff
-
-		version := []byte(header.Version)
-		previousHash := []byte(previousHeader.Hash)
-		timestamp := []byte(strconv.FormatInt(header.TimeStamp, 10))
-		index := []byte(strconv.FormatInt(header.Index, 10))
-		nonce := []byte(strconv.FormatInt(header.Nonce, 10))
-		diff := []byte(strconv.Itoa(header.Difficulty))
-		coinbase := []byte(header.Coinbase)
-
-		headers := bytes.Join([][]byte{version, previousHash, index, coinbase, diff, nonce, timestamp, b.Data}, []byte{})
-
-		hash := fmt.Sprintf("%x", sha256.Sum256(headers))
-		if difficulty(hash, header.Difficulty) {
-			header.Hash = hash
-			break
-		}
-	}
+func (b *Block) generateBlockHash(difficulty int) {
+	proofOfWork := NewProofOfWork(b, difficulty)
+	b.Header.Nonce, b.Header.Hash = proofOfWork.Run(true)
 	return
-}
-
-// difficulty ...
-func difficulty(hash string, d int) bool {
-	for i := 0; i < d; i++ {
-		if !strings.EqualFold(hash[i:i+1], "0") {
-			return false
-		}
-	}
-
-	if strings.EqualFold(hash[d:d+1], "0") {
-		return false
-	}
-
-	return true
 }

@@ -6,7 +6,7 @@ package coin
 
 // Transaction ...
 type Transaction struct {
-	Id  []byte
+	ID  []byte
 	Out []Output
 	In  []Input
 }
@@ -17,9 +17,9 @@ type Output struct {
 	PublicKey string
 }
 
-// Input ...
+// Input ...D
 type Input struct {
-	Id        []byte
+	ID        []byte
 	Amount    int
 	PublicKey string
 }

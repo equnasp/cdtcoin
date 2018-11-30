@@ -2,7 +2,7 @@ package coin
 
 // Blockchain ...
 type Blockchain struct {
-	// blocks ...
+	// blocks Block data(块数据)
 	blocks []*Block
 }
 

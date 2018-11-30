@@ -1,8 +1,8 @@
 package config
 
 const (
-	VERSION = "1.0.0"
-	BANNER  = `
+	VERSION string = "1.0.0"
+	BANNER         = `
   ___  ____   ____     ___  _____  ____  _  _ 
  / __)(  _ \ (_  _)   / __)(  _  )(_  _)( \( )
 ( (__  )(_) )  )(    ( (__  )(_)(  _)(_  )  ( 
