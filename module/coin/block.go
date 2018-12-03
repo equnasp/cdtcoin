@@ -59,13 +59,16 @@ func NewBlock(previousHeader *BlockHeader, index int64, data []byte) *Block {
 	}
 
 	block.Header = header
-	block.generateBlockHash(27)
+	block.generateBlockHash(16)
 	return block
 }
 
 // generateBlockHash Generate block HASH(生成区块HASH)
 func (b *Block) generateBlockHash(difficulty int) {
 	proofOfWork := NewProofOfWork(b, difficulty)
-	b.Header.Nonce, b.Header.Hash = proofOfWork.Run(true)
+	b.Header.Nonce, b.Header.Hash = proofOfWork.Get(true)
+	if !proofOfWork.Validate() {
+		b.generateBlockHash(difficulty)
+	}
 	return
 }

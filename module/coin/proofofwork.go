@@ -9,10 +9,6 @@ import (
 	"strconv"
 )
 
-var (
-	maxNonce = math.MaxInt64
-)
-
 // ProofOfWork represents a proof-of-work(工作证明)
 type ProofOfWork struct {
 	block      *Block
@@ -49,23 +45,20 @@ func (pow *ProofOfWork) prepareData(nonce int) []byte {
 	return data
 }
 
-// Run Execute and get a hash and proof-of-work(执行并获得Hash和工作量证明)
-func (pow *ProofOfWork) Run(display bool) (int, []byte) {
+// Get Execute and get a hash and proof-of-work(执行并获得Hash和工作量证明)
+func (pow *ProofOfWork) Get(display bool) (int, []byte) {
 	var hashInt big.Int
 	var hash [32]byte
 	nonce := 0
 
 	fmt.Printf("Mining a new block")
-	for nonce < maxNonce {
+	for nonce < math.MaxInt64 {
 		data := pow.prepareData(nonce)
-
 		hash = sha256.Sum256(data)
-
 		if math.Remainder(float64(nonce), 1000000) == 0 && display {
 			fmt.Printf("\rBlock:%x,Confirm:false,Nonce:%d\n", hash[:], nonce)
 		}
 		hashInt.SetBytes(hash[:])
-
 		if hashInt.Cmp(pow.target) == -1 {
 			break
 		} else {
@@ -77,7 +70,7 @@ func (pow *ProofOfWork) Run(display bool) (int, []byte) {
 	return nonce, hash[:]
 }
 
-// Validate validates block's proof-of-work(区块的工作量有效性验证)
+// Validate Block data validation(块的数据有效性验证)
 func (pow *ProofOfWork) Validate() bool {
 	var hashInt big.Int
 	data := pow.prepareData(pow.block.Header.Nonce)
